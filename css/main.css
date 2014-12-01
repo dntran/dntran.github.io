@@ -1,27 +1,5 @@
 body{
-	//background: rgb(244, 225, 205);
-	background: linear-gradient(228deg, #F4E8DD, #C8A784);
-	background-size: 400% 400%;
-
-	-webkit-animation: gradientAnim 10s ease infinite;
-	-moz-animation: gradientAnim 10s ease infinite;
-	animation: gradientAnim 10s ease infinite;
-
-	@-webkit-keyframes gradientAnim {
-	    0%{background-position:23% 0%}
-	    50%{background-position:78% 100%}
-	    100%{background-position:23% 0%}
-	}
-	@-moz-keyframes gradientAnim {
-	    0%{background-position:23% 0%}
-	    50%{background-position:78% 100%}
-	    100%{background-position:23% 0%}
-	}
-	@keyframes gradientAnim { 
-	    0%{background-position:23% 0%}
-	    50%{background-position:78% 100%}
-	    100%{background-position:23% 0%}
-	}
+	background-color: white;
 }
 body p{
 	font-size: 18px;
